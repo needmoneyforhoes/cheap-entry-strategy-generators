@@ -47,8 +47,8 @@ Picks:
 import json
 from collections import Counter
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/vol_compression_cheap.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/vol_compression_cheap.json"
 CD_FILL_FLOOR = 15
 MIN_FIRES = 30  # significance floor for "best" selection
 

@@ -75,8 +75,8 @@ from collections import Counter
 
 import numpy as np
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/ev_threshold_logistic.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/ev_threshold_logistic.json"
 CD_FILL_FLOOR = 15
 
 # E_TRAIN_CAP defines the cheap universe used for BOTH training rows and the cap

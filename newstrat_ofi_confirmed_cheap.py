@@ -35,8 +35,8 @@ import json
 import numpy as np
 from collections import Counter
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/ofi_confirmed_cheap.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/ofi_confirmed_cheap.json"
 CD_FLOOR = 15
 
 E_CAPS = [0.10, 0.12, 0.15, 0.18, 0.20, 0.22, 0.25]

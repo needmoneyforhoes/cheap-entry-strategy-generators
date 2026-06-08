@@ -41,8 +41,8 @@ import json
 import itertools
 from collections import defaultdict
 
-PANEL = "/home/polybot/polymarket-bot/data/market_panel.json"
-OUT_COL = "/home/polybot/polymarket-bot/data/edge_pnl/crowd_flip_cheap.json"
+PANEL = "./data/market_panel.json"
+OUT_COL = "./data/edge_pnl/crowd_flip_cheap.json"
 CD_FILL_FLOOR = 15
 
 # ---- sweep grids ----
