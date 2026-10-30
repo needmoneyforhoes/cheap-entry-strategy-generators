@@ -40,3 +40,8 @@ Read-only; no credentials or network access.
 - Output: `$DATA_DIR/edge_pnl/<family>.json`, `{slug: pnl_per_dollar}` for the chosen best variant (unfired markets = `0.0`).
 
 `PANEL` and `OUT_COL` at the top of each file are hardcoded to a local path; point them at your data checkout. JSON/PKL/CSV artifacts are git-ignored.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/cheap-entry-strategy-generators/issues/new). Pull requests are welcome too.
